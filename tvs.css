@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+}
+.nav-list{
+    width: 70%;
+    background-color: ;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+.rightNav{
+    background-color: ;
+    width: 30%;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: solid white;
+    border-radius: 50px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('walli.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: seashell;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    max-width: 65%;
+    height: 80%;
+}
+.firstshalf{
+    width: 80%;
+    display: flex;
+    -ms-flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 90%;
+    border-radius: 237px;
+    display: block;
+    border: 4px solid white;
+    margin: auto;
+}
+.text-big{
+    font-size: 41px;
+}
+.text-big-first{
+    font-size: 40px;
+    width: 175%;
+    text-align: left;
+    
+}
+.text-small{
+    font-size: 18px;
+}
+.btn{
+    padding: 8px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background:none;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.btn-sm{
+    padding: 6px 10px ;
+    vertical-align: middle;
+    transform: translate(05px, -2px);
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    max-width: fit-content;
+    margin: auto;
+    background-color: rgb(206, 248, 253);
+}
+
+.section-left{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    max-width: fit-content;
+    margin: auto;
+    background-color: rgb(250, 250, 250);
+    flex-direction: row-reverse;
+}
+.paras{
+    padding:0 65px;
+}
+.sectionsubtag{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.thumbnail img{
+    width: 271px;
+    border: 2px solid black;
+    border-radius: 32px;
+    margin-top: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contact{
+    background-color: rgb(255, 226, 215);
+    height: 34vh;
+}
+.textcenter{
+    text-align: center;
+}
+.form{
+    width: 100%;
+    margin: auto;
+}
+.form input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+}
+.burger{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    right: 1%;
+    top: 19px;
+}
+.line{
+    width: 33px;
+    height: 4px;
+    margin: 5px 3px;
+    background-color: white;
+}
+@media only screen and(max-width: 1046px){
+   .nav-list{ 
+       flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+}
+.rightNav{
+    text-align: center;
+}
+#search{
+    width: 100%;
+}
+.burger{
+    display: block;
+}
+.h-nav-resp{
+    height: 72px;
+}
+.v-class-resp{
+    opacity: 0;
+}
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+#right-footer{
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 38%;
+    margin: auto;
+}
+#left-footer{
+    padding: 20px;
+    font-size: 15px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    background-color: black;
+}
+.links{
+    color: blanchedalmond;
+}
+.sitemap a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+/* Our products css */
+@media (min-width: 815px)
+.layout {
+    width: 90%;
+    position: relative;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 816px){}
+.col-sm-3{
+    width: 25%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-sm-9 {
+    width: 75%;
+}
+
+.col-sm-5 {
+    width: 41.66666667%;
+}
+.col-sm-4 {
+    width: 33.33333333%;
+}
+#right-footer{
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 38%;
+    margin: auto;
+}
+#left-footer{
+    padding: 20px;
+    font-size: 15px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    background-color: black;
+}
+.links{
+    color: blanchedalmond;
+}
+.sitemap a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+/* Our products css */
+
+.section-footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    align-items: center;
+    margin: auto;
+    background-color:whitesmoke;
+    font-size: 18px;
+}
+.btn-contact{
+    color: #30323a;
+    text-decoration: transparent;
+    font-size: 15px;
+    border: black;
+    background-color: blueviolet;
+}
+.layout{
+    text-align: left;
+    font-size: 18px;
+}
+.btn-footer {
+    padding: 8px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: black;
+    cursor: pointer;
+    color: whitesmoke;
+    width: 200px;
+}
+
+
+
+/* footer */
+#left-footer{
+    padding: 20px;
+    font-size: 15px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    background-color: black;
+}
+
+.section-footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    align-items: center;
+    margin: auto;
+    background-color:whitesmoke;
+    font-size: 18px;
+}
+
+.layout{
+    text-align: left;
+    font-size: 18px;
+}
+
+.thumbnail img{
+    width: 271px;
+    border: 2px solid black;
+    border-radius: 32px;
+    margin-top: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+#right-footer{
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 38%;
+    margin: auto;
+}
+.mail {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}

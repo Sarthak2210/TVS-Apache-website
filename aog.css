@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+}
+.nav-list{
+    width: 70%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+.rightNav{
+    background-color: black;
+    width: 30%;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: solid white;
+    border-radius: 50px;
+}
+.logo-1{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.logo-1 img{
+    width: 220%;
+    border: solid white;
+    border-radius: 66px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.back-nav{
+    background-color: black;
+}
+
+.background{
+    background: rgb(248, 17, 17) 
+}
+
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: seashell;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    max-width: 65%;
+    height: 80%;
+}
+.firstshalf{
+    width: 80%;
+    display: flex;
+    -ms-flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 90%;
+    border-radius: 237px;
+    display: block;
+    border: 4px solid white;
+    margin: auto;
+}
+.text-big{
+    font-size: 41px;
+}
+.text-small{
+    font-size: 18px;
+}
+.btn{
+    padding: 8px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background:none;
+    cursor: pointer;
+    color: whitesmoke;
+    width: 100px;
+}
+.btn-sm{
+    padding: 6px 10px ;
+    vertical-align: middle;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    align-items: center;
+    max-width: fit-content;
+    margin: auto;
+    background-color: rgb(247, 255, 203);
+}
+
+
+.section-slide{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+    max-width: fit-content;
+    margin: auto;
+    background-color: rgb(255, 75, 75);
+    flex-direction: row-reverse;
+}
+.paras{
+    padding:0 65px;
+}
+.sectionsubtag{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.thumbnail-l img{
+    width: 271px;
+    border: 2px solid black;
+    border-radius: 32px;
+    margin-top: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.thumbnail img{
+    width: 271px;
+    border: 2px solid black;
+    border-radius: 32px;
+    margin-top: 6px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contact{
+    background-color: rgb(255, 226, 215);
+    height: 34vh;
+}
+.textcenter{
+    text-align: center;
+}
+.form{
+    width: 100%;
+    margin: auto;
+}
+.form input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+}
+.line{
+    width: 33px;
+    height: 4px;
+    margin: 5px 3px;
+    background-color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+.links{
+    color: blanchedalmond;
+}
+.sitemap a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+/* Our products css */
+
+
+#right-footer{
+    display: flex;
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 38%;
+    margin: auto;
+}
+#left-footer{
+    padding: 20px;
+    font-size: 15px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    background-color: black;
+}
+.links{
+    color: blanchedalmond;
+}
+.sitemap a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+/* Our products css */
+
+.section-footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    align-items: center;
+    margin: auto;
+    background-color:whitesmoke;
+    font-size: 18px;
+}
+.btn-contact{
+    color: #30323a;
+    text-decoration: transparent;
+    font-size: 15px;
+    border: black;
+    background-color: blueviolet;
+}
+.layout{
+    text-align: left;
+    font-size: 18px;
+}
+.btn-footer {
+    padding: 8px;
+    margin: 7px 3px;
+    width: 180px;
+    height: 50px;
+    border: 5px solid white;
+    border-radius: 8px;
+    background: black;
+    cursor: pointer;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn-register {
+    padding: 8px;
+    margin: 7px 3px;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    background: black;
+    cursor: pointer;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translate(545px, -6px);
+    box-shadow: 7px 7px 15px -2px rgb(0 0 0 / 75%);
+}
+.gall{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mail {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.regis{
+    background-color: rgb(247, 255, 203);
+    height: 18vh;
+}
+
+.popup{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 112%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.popup-content{
+    height: 510px;
+    width: 500px;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+    transform: translate(5px, 60px);
+}
+
+.close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 2px 5px 7px 5px;
+    background: white;
+}
+
+.logo-pop{
+    width: 70px;
+    height: 70px;
+    border-radius: 265px;
+    transform: translate(215px, 5px);
+
+}
+
+.form-sub-btn{
+    cursor: pointer;
+}
+
+.btn-pop{
+    padding: 8px;
+    margin: 7px 3px;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    background: black;
+    cursor: pointer;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translate(5px, -6px);
+    box-shadow: 7px 7px 15px -2px rgb(0 0 0 / 75%); 
+}
+.input{
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    width: 358px;
+    border: 1px solid gray;
+    height: 18px;
+}
+.drop{
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    width: 75%;
+    border: 1px solid gray;
+}
+.close{
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.button{
+    padding: 1px;
+    margin: 25px 0px;
+    width: 178px;
+    height: 43px;
+    border-radius: 12px;
+    background: black;
+    cursor: pointer;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translate(150px, -6px);
+    box-shadow: 7px 7px 15px -2px rgb(0 0 0 / 75%);
+    text-decoration: none;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    width: auto;
+    transform: translate(1px, 6px);
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    transform: translate(1px, 4px);
+}
+
+
+/* New CSS */
+
+
+
